@@ -2,15 +2,15 @@ const Page = require('./page.js');
 
 class LoginPage extends Page {
     get txtUsername() {
-        return $('#user-name')
+        return $('//input[@id="user-name"]')
     }
     
     get txtPassword() {
-        return $('#password')
+        return $('//input[@id="password"]')
     }
 
     get btnLogin() {
-        return $('#login-button')
+        return $('//input[@id="login-button"]')
     }
     
     get errorMessage() {
