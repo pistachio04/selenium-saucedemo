@@ -1,0 +1,134 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-07-30T02:13:28.689Z",
+    "end": "2024-07-30T02:13:31.871Z",
+    "duration": 3182
+  },
+  "results": [
+    {
+      "title": "",
+      "suites": [
+        {
+          "title": "Login Test Case (chrome.126_0_6478_183.mac)",
+          "suites": [],
+          "tests": [
+            {
+              "title": "should login with valid credential",
+              "fullTitle": "should login with valid credential",
+              "timedOut": false,
+              "duration": 1844,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "code": "",
+              "err": {},
+              "uuid": "bcb9b93e-4a3e-4ac5-9b97-2305869ccd8e",
+              "parentUUID": "e37bdb44-aed7-4560-a0b4-6bb9e21e2946",
+              "skipped": false,
+              "context": "[{\"title\":\"Session Id\",\"value\":\"2627488721ba398ce75bfaca5d2dec8c\"}]",
+              "isHook": false
+            },
+            {
+              "title": "should login with invalid credentials",
+              "fullTitle": "should login with invalid credentials",
+              "timedOut": false,
+              "duration": 440,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "code": "",
+              "err": {},
+              "uuid": "0970d227-2741-4750-ae35-c40501e35a88",
+              "parentUUID": "e37bdb44-aed7-4560-a0b4-6bb9e21e2946",
+              "skipped": false,
+              "context": "[{\"title\":\"Session Id\",\"value\":\"2627488721ba398ce75bfaca5d2dec8c\"}]",
+              "isHook": false
+            }
+          ],
+          "root": false,
+          "_timeout": 0,
+          "file": "",
+          "uuid": "e37bdb44-aed7-4560-a0b4-6bb9e21e2946",
+          "fullFile": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "passes": [
+            "bcb9b93e-4a3e-4ac5-9b97-2305869ccd8e",
+            "0970d227-2741-4750-ae35-c40501e35a88"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2286
+        },
+        {
+          "title": "Add to Cart Test Case (chrome.126_0_6478_183.mac)",
+          "suites": [],
+          "tests": [
+            {
+              "title": "should add to cart",
+              "fullTitle": "should add to cart",
+              "timedOut": false,
+              "duration": 824,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "code": "",
+              "err": {},
+              "uuid": "e006d2b0-3273-4a34-ae5e-fbeaf91641dc",
+              "parentUUID": "37546334-061c-4a6e-bdd0-3b88aa1fd121",
+              "skipped": false,
+              "context": "[{\"title\":\"Session Id\",\"value\":\"2627488721ba398ce75bfaca5d2dec8c\"}]",
+              "isHook": false
+            }
+          ],
+          "root": false,
+          "_timeout": 0,
+          "file": "",
+          "uuid": "37546334-061c-4a6e-bdd0-3b88aa1fd121",
+          "fullFile": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "passes": [
+            "e006d2b0-3273-4a34-ae5e-fbeaf91641dc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 824
+        }
+      ],
+      "tests": [],
+      "root": true,
+      "_timeout": 0,
+      "file": "",
+      "uuid": "a740a9e6-2961-42f7-9aff-22f1cd641e4f",
+      "fullFile": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0
+    }
+  ]
+}
